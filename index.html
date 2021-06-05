@@ -1,131 +1,252 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>精益管网监测系统PCweb</title>
-  <link rel="stylesheet" href="./layui/css/layui.css">
-  <link rel="stylesheet" href="css/font.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>马君旺的简历</title>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="lib/layui/layui.js" charset="utf-8"></script>
-  <script type="text/javascript" src="js/xadmin.js"></script>
-  <style>
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-  </style>
+    <style>
+    .kkb
+    {
+        height:600px;
+        width:100%;
+        background:rgb(228, 228, 228);
+        text-align:center;
+        transition: all 1s;
+        
+    }
+    .kkb:hover
+    {
+        /*margin-left: 50px;*/
+        background: blue;
+        transition: all 1s;
+    }
+    .title
+    {
+        width:400px; 
+        background:rgb(243, 194, 194); 
+        text-align:center;
+        border: solid 1px rgb(245, 244, 244);
+        border-radius: 2px;
+    }
+    .body
+    {
+        width:400px; 
+        background:rgb(255, 254, 254); 
+        text-align:center;
 
+    }
+    .title
+    {
+      width:100%;
+      background:rgb(41, 89, 143); 
+
+      text-align:center;
+      color:#fff;
+      align-items: center;/*元素居中*/
+      position: relative;/*元素居中*/
+    }
+
+    #pic
+            {
+                width:110px;
+                height: 140px;
+                border-radius: 5px;
+                overflow:hidden;  /*对溢出元素进行隐藏*/
+                box-shadow: 0 0 50px rgb(94, 92, 92);/*设置阴影*/
+                align-items: center;/*元素居中*/
+                position: relative;/*元素居中*/
+                display: flex;/*元素居中*/
+                justify-content:center;/*元素居中*/
+            }
+
+    </style>
 </head>
 <body>
-
-<div class="layui-layout layui-layout-admin">
-  <div class="layui-header">
-    <div class="layui-logo">
-      <img style='width: 25%;display:inline-block;' src="logo.png" alt="load failed">
-      <p style='display:inline-block;color:red'>ZDJY</p>
-    </div>
-
-
-    <!-- 头部区域（可配合layui 已有的水平导航） -->
-    <ul class="layui-nav layui-layout-left">
-      <li class="layui-nav-item"><a href="javascript:document.getElementById('DDD').setAttribute('src','set.html')" href="">参数设置</a></li>
-      <li class="layui-nav-item"><a href="">信息查看</a></li>
-      <li class="layui-nav-item"><a href="javascript:document.getElementById('DDD').setAttribute('src','guide.html')">使用帮助</a></li>
-      <li class="layui-nav-item">
-        <a href="javascript:;">更多</a>
-        <dl class="layui-nav-child">
-          <dd><a href="">关于浙达精益</a></dd>
-          <dd><a href="">跳转</a></dd>
-          <dd><a href="">统计</a></dd>
-        </dl>
-      </li>
-    </ul>
-    <ul class="layui-nav layui-layout-right">
-      <li class="layui-nav-item">
-        <a href="javascript:;">
-          <img src="pic/3.png" class="layui-nav-img">
-          majunwang
-        </a>
-        <dl class="layui-nav-child">
-          <dd><a href="">信息设置</a></dd>
-          <dd><a href="">切换</a></dd>
-        </dl>
-      </li>
-      <li class="layui-nav-item"><a href="">Sign out</a></li>
-    </ul>
-  </div>
+    
+        
  
+      <div class="layui-bg-gray" style="padding: 10px;">
+        <div class="layui-row layui-col-space15" style="justify-content:center;display: flex;height: 800px;">
+            
+          <div class="layui-col-md2" style="display:inline-block;">
+            <div class="layui-card"style="background:greenyellow;height: 1000px" >
+              
+              <div class="layui-card-body" >
+
+                <div style =' display: flex;justify-content:center;position: relative;'>
+                <div id='pic' > <img style="width:110px;height:140px;" src="1.jpg" alt="load failed"> </div>
+              </div>
+
+                <div style = 'text-align:center;font-size:15px;color: #000000;margin:5px;/*div外边距*/ '>马君旺</div>
+                <div style = 'text-align:center;font-size:15px;color: #000000;margin:5px;/*div外边距*/ '>意向方向:web后端</div>
+
+                <div class= 'title'><-基本信息-></div>
+
+                <div class="layui-form">
+                  <table class="layui-table"  style="background-color: rgb(176, 229, 236);" lay-size="sm">
+                    <colgroup>
+                      <col width="150">
+                      <col width="150">
+                      <col width="200">
+                      <col>
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td>性别:男    年龄:22</td>
+                      </tr>
+                      <tr>
+                        <td>本科院校:杭州电子科技大学</td>
+
+                      </tr>
+                      <tr>
+                        <td>专业:测控技术与仪器</td>
+
+                      </tr>
+                      <tr>
+                        <td>硕士院校:浙江大学</td>
+
+                      </tr>
+                      <tr>
+                        <td>专业:电子信息技术及仪器</td>
+
+                      </tr>
+                      <tr>
+                        <td>电话:13623769987</td>
+
+                      </tr>
+                      <tr>
+                        <td>邮箱:844234020@qq.com</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class= 'title'><-个人技能-></div>
+
+                <div class="layui-form">
+                  <table class="layui-table"  style="background-color: rgb(176, 229, 236);" lay-size="sm">
+                    <colgroup>
+                      <col width="150">
+                      <col width="150">
+                      <col width="200">
+                      <col>
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td style = 'font-size:15px;'>⭐  能够利用java/python进行<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小&nbsp;型&nbsp;服&nbsp;务&nbsp;器&nbsp;开发,熟&nbsp;悉<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TCP/IP网络编程
+                          </td>              
+                      </tr>
+                      <tr>
+                        <td style = 'font-size:15px;'>⭐熟悉Mysql数据库，多线<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;程，
+                          xml,html语言</td>
+                      </tr>
+                      <tr>
+                        <tr>
+                          <td style = 'font-size:15px;'>⭐熟悉ARM硬件及linux系统
+                            </td>              
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class= 'title'><-技能证书-></div>
+
+                <div class="layui-form">
+                  <table class="layui-table"  style="background-color: rgb(176, 229, 236);" lay-size="sm">
+                    <colgroup>
+                      <col width="150">
+                      <col width="150">
+                      <col width="200">
+                      <col>
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td>英语六级证书(562分)<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'cet6.png'> Look-> </a> </td>
+                        
+                      </tr>
+                      <tr>
+                        <td>计算机二级Office证书<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'office.jpg'> Look-> </a> </td>
+                      </tr>
+                      <tr>
+                        <td>电子设计助理工程师证书<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'ds.jpg'> Look-> </a> </td>
+                      </tr>
+                      <tr>
+                        <td>仪器仪表助理工程师证书<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'yq.jpg'> Look-> </a> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class= 'title'><-曾任职务-></div>
+
+                <div class="layui-form">
+                  <table class="layui-table"  style="background-color: rgb(176, 229, 236);" lay-size="sm">
+                    <colgroup>
+                      <col width="150">
+                      <col width="150">
+                      <col width="200">
+                      <col>
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td>学院科协副会长</td>              
+                      </tr>
+                      <tr>
+                        <td>班级科技委员</td>
+                      </tr>
+                      <tr>
+
+                    </tbody>
+                  </table>
+                </div>
 
 
+              </div>
+            </div>
+          </div>
 
-  <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-  <div class="layui-side layui-bg-black">
-    <div class="layui-side-scroll">
+          <div class="layui-col-md5" style="display:inline-block;">
 
-      <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-
-        <li class="layui-nav-item layui-nav-itemed">         
-          <a class="" href="javascript:;"><i class="iconfont">&#xe6eb;</i><cite class='leftfont' style='margin-left: 10px;'>主页</cite></a>
-          <dl class="layui-nav-child">
-            <dd><a href="javascript:document.getElementById('DDD').setAttribute('src','workmessage.html')">工作信息</a></dd>
-            <dd><a href="javascript:document.getElementById('DDD').setAttribute('src','echarts3.html')">控制台</a></dd>
-          </dl>
-        </li>
-
-
-        <li class="layui-nav-item">
-          <a class="" href="javascript:;"><i class="iconfont">&#xe6e4;</i><cite class='leftfont' style='margin-left: 10px;'>监测信息</cite></a>
-          <dl class="layui-nav-child">
-            <dd><a href="javascript:document.getElementById('DDD').setAttribute('src','echarts1.html')">波形信息</a></dd>
-            <dd><a href="javascript:document.getElementById('DDD').setAttribute('src','echarts2.html')">统计信息</a></dd>
-          </dl>
-        </li>
-
-
-        <li class="layui-nav-item">  
-          <a class="" href="javascript:document.getElementById('DDD').setAttribute('src','set.html')"><i class="iconfont">&#xe69e;</i><cite class='leftfont' style='margin-left: 10px;'>常规设置</cite></a>
-        
-
-        <li class="layui-nav-item">
-          <a class="" href="javascript:document.getElementById('DDD').setAttribute('src','peoplemanage.html')"><i class="iconfont">&#xe70b;</i><cite class='leftfont' style='margin-left: 10px;'>用户管理</cite></a>
-        
-
-        <li class="layui-nav-item layui-nav-itemed">
-          <a class="" href="javascript:;"><i class="iconfont">&#xe726;</i><cite class='leftfont' style='margin-left: 10px;'>其他</cite></a>
-          <dl class="layui-nav-child">
-            <dd ><a href="javascript:document.getElementById('DDD').setAttribute('src','https://www.layui.com/layuiadmin/std/dist/views/user/reg.html')">注册</a></dd>
-            <dd><a href="javascript:document.getElementById('DDD').setAttribute('src','https://www.layui.com/layuiadmin/std/dist/views/user/reg.html')">登录</a></dd>
-          </dl>
-        </li>
-
-        <li class="layui-nav-item">
-          <a class="" href="javascript:document.getElementById('DDD').setAttribute('src','https://echarts.apache.org/examples/zh/index.html')"><i class="iconfont">&#xe70b;</i><cite class='leftfont' style='margin-left: 10px;'>支持图例一览</cite></a>
-        
+            <div class="layui-card" style="height: 300px">
+              <div class="layui-card-header" style='font-size: 20px; color:rgb(34, 122, 236)'> 🔣学习&竞赛获奖情况</div>
+              <div class="layui-card-body" style ='font-size: 15px;line-height:27px'>
+                主修课程：数字电路、线性电子电路、传感器原理及工程应用、自动控制
+                原理、数字信号处理、信号与系统、嵌入式系统，计算机网络<br>
+                ⚪本科三次一等奖学金，两次二等奖学金 <a style = 'position: absolute;right: 10px;font-weight:bold' href = 'yq.jpg'> Look-> </a>
+                <br>⚪2019、2018 年省政府奖学金；2017 年国家励志奖学金<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'szf.jpg'> Look-> </a>
+                <br>⚪2018 年中国研究生电子设计竞赛国家二等奖，华东一等奖<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'yd.jpg'> Look-> </a>
+                <br>⚪2018 年浙江省大学生电子设计竞赛 TI 专项奖、省一等奖<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'dz.jpg'> Look-> </a>
+                <br>⚪2019 年中国大学生数学竞赛(理论)国家一等奖<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'sx.jpg'> Look-> </a>
+                <br>⚪2017 年浙江省大学生物理创新竞赛(理论)一等奖<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'wl.jpg'> Look-> </a>
+                <br>⚪2019 年浙江省大学生挑战杯课外竞赛省二等奖<a style = 'position: absolute;right: 10px;font-weight:bold' href = 'tzb.jpg'> Look-> </a>
+              </div>
+            </div>
+            <div class="layui-card" style="height: 200px">
+                <div class="layui-card-header">荣誉</div>
+                <div class="layui-card-body">
+                  成绩排行第三<br>
+                  获得竞赛省一
+                </div>
+              </div>
+              <div class="layui-card" style="height: 200px">
+                <div class="layui-card-header">项目</div>
+                <div class="layui-card-body">
+                  成绩排行第三<br>
+                  获得竞赛省一
+                </div>
+              </div>
+          </div>
+          
 
 
-
-        </ul>
-    </div>
-  </div>
-  
-
-    <!-- 内容主体区域 -->
-    <div class="layui-body">
-      <iframe id='DDD' src='workmessage.html' frameborder="0" scrolling="yes" style='width:100%;height:100%;overflow:hidden;'></iframe>  
-    </div>
-
-    <!-- 底部固定区域 -->  
-  <div class="layui-footer" style='background-color:rgb(224, 224, 223);'>
-    <p style='text-align:center'>contact us:    电话：0571-85022037 传真：0571-85128737 邮箱：service@jingyitech.com</p>
-  </div>
-</div>
- 
-<script src="./layui/layui.js"></script>
-<script>
-//JavaScript代码区域
-layui.use('element', function(){
-  var element = layui.element;
-  
-});
-</script>
+        </div>
+      </div> 
 </body>
 </html>
